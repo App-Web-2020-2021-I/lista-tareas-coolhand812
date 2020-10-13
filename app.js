@@ -22,7 +22,7 @@ function agregarTarea(datos){
         </div>
     </li>`;
 
-    $("#lista-tareas")
+    $("#lista-tareas").append(html);
 }
 
 $(document).ready(function(){
