@@ -25,7 +25,13 @@ function agregarTarea(datos){
     $("#lista-tareas").append(html);
 }
 
+function muestraAlerta(mensaje){
+    $("#alerta-form")
+}
+
 $(document).ready(function(){
+    $("#alerta-form").hide(0);
+
     $("#form-tarea").submit(function(e){
         e.preventDefault();
 
