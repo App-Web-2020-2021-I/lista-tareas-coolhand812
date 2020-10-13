@@ -7,13 +7,13 @@ function agregarTarea(datos){
             </div>
             <div class="col-10 row m-0 p-0">
                 <div class="col-9 h5">
-                    $(datos.titulo)
+                    ${datos.titulo}
                 </div>
                 <div class="col-3 text-right">
-                    <i>$(datos.fecha)</i>
+                    <i>${datos.fecha}</i>
                 </div>
                 <div class="col-12 text-justify">
-                    $(datos.descripcion)
+                    ${datos.descripcion}
                 </div>
             </div>
             <div class="col-1">
